@@ -12,12 +12,14 @@ architecture is quite good as a starting point.
 
 ## Building
 After checking out:
+
     sh bootstrap.sh
     mvn package assembly:single
 
 Maven will report where the generated stand-alone jar file is placed.
 
 One can then run this app as with any jar file, for instance:
+
     java -jar geodaisia.jar points.txt -o map.svg.gz
 
 Note that the default maven dependency repository is not used because

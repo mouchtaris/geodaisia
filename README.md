@@ -10,6 +10,21 @@ This is an experimental/hobby project and the result is not
 quite satisfactory yet. Yet, it is well-maintained, and the
 architecture is quite good as a starting point.
 
+## Building
+After checking out:
+    sh bootstrap.sh
+    mvn package assembly:single
+
+Maven will report where the generated stand-alone jar file is placed.
+
+One can then run this app as with any jar file, for instance:
+    java -jar geodaisia.jar points.txt -o map.svg.gz
+
+Note that the default maven dependency repository is not used because
+there appears to be some java-version incompatibility between the
+jars in the repos and the latest jdk1.8. If someone feels like trying
+it out, the dependencies are still in the pom file, but commented out.
+
 ## Input format
 The program input is a simple text file, in which every line is an entry.
 

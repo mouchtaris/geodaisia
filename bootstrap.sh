@@ -1,6 +1,5 @@
 mydir="$( cd "$(dirname "$0")" && pwd )"
-#jscience_url='https://java.net/projects/jscience/downloads/download/jscience-4.3.1-bin.zip'
-jscience_url='http://localhost:11000/jscience-4.3.1-bin.zip'
+jscience_url='https://java.net/projects/jscience/downloads/download/jscience-4.3.1-bin.zip'
 cache=_cache
 jscience_zip="${cache}"/jscience-4.3.1-bin.zip
 project_repo="${mydir}"/project_repo

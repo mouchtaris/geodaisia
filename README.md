@@ -1,7 +1,7 @@
 # Geodaisia
 
 Geodaisia (Γεωδαισία) is a small utility program which (is supposed to)
-figure out and draw equal-height lines on a map. The input for the
+figure out and draw equal-height lines (contour lines) on a map. The input for the
 program is a list of points, along with their coordinates and their
 supposed height. The output is an SVG file which describes/draws these
 points, as well as the equal-height lines among them.
